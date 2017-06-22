@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="lion" size="50.000000 49.585064" />
+    <ImageTarget name="panda" size="50.000000 51.760563" />
+    <ImageTarget name="gorilla" size="50.000000 50.000000" />
+    <ImageTarget name="elephant" size="50.000000 46.923077" />
+    <ImageTarget name="eagle" size="50.000000 50.000000" />
     <ImageTarget name="tiger" size="35.000000 50.978260" />
     <ImageTarget name="vuforia_stones_vergium" size="50.000000 35.000000" />
   </Tracking>
