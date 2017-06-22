@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="50EURO" size="5.000000 2.787500" />
+    <ImageTarget name="euro50reverse" size="5.000000 2.717742" />
+    <ImageTarget name="d22a21842550ea9119d67f3d5ccd42fb" size="5.000000 2.693750" />
     <ImageTarget name="eu5" size="5.000000 2.552083" />
   </Tracking>
 </QCARConfig>
