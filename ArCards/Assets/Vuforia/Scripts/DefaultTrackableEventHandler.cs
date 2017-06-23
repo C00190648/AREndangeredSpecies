@@ -70,6 +70,14 @@ namespace Vuforia
         {
             Renderer[] rendererComponents = GetComponentsInChildren<Renderer>(true);
             Collider[] colliderComponents = GetComponentsInChildren<Collider>(true);
+            AudioSource[] audioComponents = GetComponentsInChildren<AudioSource>(true);
+
+          
+            foreach (AudioSource component in audioComponents)
+            {
+                component.enabled = true;
+                component.Play();
+            }
 
             // Enable rendering:
             foreach (Renderer component in rendererComponents)
